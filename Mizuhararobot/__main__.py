@@ -23,7 +23,7 @@ from Mizuhararobot.modules.helper_funcs.alternate import typing_action
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am chizuru ichinose a group manager bot.Rent me for your group if you want😃😃.
+I am a group manager bot. Add me for your group if you want!.
 You can find my list of available commands with /help.
 """
 
@@ -34,7 +34,7 @@ BOT_IMG = "https://telegra.ph/file/eee3cb7efa205ca5b1262.mp4"
 
 
 HELP_STRINGS = """
-Hello I'm  mizuhara from rent a girlfriend. Rent me for your grp to have fun there.You can have a look at the following for an idea of some of \
+Hello I'm  AL management. Add me for your group to have fun there.You can have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:[:.:](https://telegra.ph/file/8fbc5858ddd7eefe2fccf.jpg)
@@ -152,7 +152,7 @@ def start(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕️Add mizuhara to your group",
+                            text="➕️Add AL management to your group",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                     [
@@ -166,7 +166,7 @@ def start(update, context):
                     [
                         InlineKeyboardButton(
                             text="help",
-                            url="https://t.me/Chizurumanagementbot?start=help")
+                            url="https://t.me/IchigoX_bot?start=help")
                     ]]))
 
 
